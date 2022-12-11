@@ -1,0 +1,27 @@
+.portfolio__navbar {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  & li {
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-bottom: 50px;
+}
+} 
+.portfolio__navbar--button {
+  background-color: var(--bg-grey);
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  height: 38px;
+  border: 0;
+  padding: 6px 22px;
+  transition-property: background-color, color;
+  transition: var(--transition-duration) var(--cubic-bezier); 
+    &:hover,:focus {
+  background-color: var(--blue);
+  color: var(--white);
+}
+}

@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 16px 10px 16px 15px;
+}
+.header__wrapper {
+  width: 932px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__background {
+  border-bottom: 1px solid var(--border-header);
+  background-color: var(--white);
+  height: 60px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 24px 15px 25px 15px;
+  }
+}
+
+/* 
+.header__background{
+    height: 80px
+  }  <- dla wiekszej rozdzialki
+.header {
+  padding: 24px 15px 25px 15px;
+}
+
+
+
+
+*/

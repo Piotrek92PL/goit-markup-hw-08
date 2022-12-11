@@ -1,0 +1,132 @@
+.features__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 94px;
+  padding-inline-start: 0px;
+  list-style-type: none;
+}
+.features__grid__item {
+  width: 100%;
+  background-color: var(--white);
+  justify-content: center;
+}
+.features__grid__logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 3px;
+  background-color: var(--bg-grey);
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+.features__description__headline {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-title);
+  padding-bottom: 10px;
+  text-align: center;
+}
+.features__description__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  text-align: justify;
+}
+.gallery__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  list-style-type: none;
+            &> li {
+             height: 294px;
+}
+}
+@media (max-width: 767px) {
+  .features__gallery {
+  display: none;
+}
+}
+
+
+
+
+
+
+
+/* 
+.features__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding-bottom: 94px;
+  padding-inline-start: 0px;
+  list-style-type: none;
+}
+.features__grid__item {
+  width: 270px;
+  background-color: var(--white);
+}
+.features__grid__logo {
+  padding: 25px 100px 25px 100px;
+  border-radius: 3px;
+  background-color: var(--bg-grey);
+  margin-bottom: 30px;
+}
+.features__description__headline {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--black-title);
+  padding-bottom: 10px;
+}
+.features__description__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  text-align: justify;
+}
+
+.gallery__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  list-style-type: none;
+            &> li {
+             height: 294px;
+}
+}
+
+.gallery__image__description {
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  position: relative;
+  max-width: 370px;
+  max-height: 70px;
+  align-content: center;
+  justify-content: center;
+  color: var(--white);
+  background-color: var(--shadows-6);
+  z-index: 2;
+  padding: 27px 90px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  bottom: 74px;
+}
+
+*/

@@ -1,0 +1,42 @@
+.logo {
+  display: inline;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.logo--blue {
+  color: var(--blue);
+}
+.logo--white {
+  color: var(--white);
+  /* margin-bottom: 20px; */
+}
+.logo--black {
+  color: var(--black-title);
+}
+.logo--style {
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+@media (min-width: 768px) {
+  .logo--black {
+    margin-right: 83px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+}
+ 
+/* 
+.logo {
+ 
+  font-size: 26px;
+}
+
+.logo--black {
+  margin-right: 93px;
+}
+
+
+*/
