@@ -1,9 +1,9 @@
 .client__icons__container {
-  max-width: 1170px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 30px;
+  padding: 0px calc((100vw - 480px)/2) 30px calc((100vw - 480px)/2);
+
 }
 .client__icons--border {
   width: 210px;

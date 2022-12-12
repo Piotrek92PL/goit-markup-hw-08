@@ -1,10 +1,10 @@
 .contact__wrapper {
   display: flex;
-  width: 330px;
+  max-width: 150px;
   justify-content: space-between;
   & ul {
   list-style-type: none;
-  display: flex;
+  display: block;
 }
 }
 
@@ -21,7 +21,7 @@
 .header__contact__link {
   color: var(--grey-text-normal);
   font-weight: 500;
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 0.02em;
   transition: color var(--transition-duration) var(--cubic-bezier);
 }
@@ -31,13 +31,21 @@
   transition-property: fill;
   transition: var(--transition-duration) var(--cubic-bezier);
 }
+/*
 .header__contact--colorchange:first-child {
-  margin-right: 30px;
-}
+   margin-right: 30px; dla desktop 
+}*/
 .header__contact--colorchange:hover > svg {
   fill: var(--blue);
   cursor: pointer;
 }
 .header__contact--colorchange:hover a {
   color: var(--blue);
+}
+@media (min-width: 768px) {
+  .contact__wrapper {
+    flex-direction: row;
+
+
+  }
 }

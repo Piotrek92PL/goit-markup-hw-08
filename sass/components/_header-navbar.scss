@@ -20,11 +20,11 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   transition: color var(--transition-duration) var(--cubic-bezier);
-        &:hover,:focus {
-        color: var(--blue);
-        cursor: pointer;
-        }
-
+  &:hover,
+  :focus {
+    color: var(--blue);
+    cursor: pointer;
+  }
 }
 .active__site::after {
   content: '';
@@ -32,7 +32,7 @@
   height: 4px;
   position: absolute;
   left: 0px;
-  top: 45px;
+  top: 44px;
   border-radius: 2px;
   background-color: var(--blue);
 }

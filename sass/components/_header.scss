@@ -1,4 +1,5 @@
 .header {
+  height: 80px;
   display: flex;
   box-sizing: border-box;
   justify-content: space-between;
@@ -16,10 +17,17 @@
   height: 60px;
   box-sizing: border-box;
 }
-
+@media (max-width: 767px) {
+  .header__wrapper {
+    display: none;
+  }
+}
 @media (min-width: 768px) {
   .header {
     padding: 24px 15px 25px 15px;
+  }
+  .header__background {
+    height: 80px;
   }
 }
 

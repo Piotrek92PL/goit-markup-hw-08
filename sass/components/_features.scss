@@ -53,7 +53,12 @@
   display: none;
 }
 }
-
+@media (min-width: 768px) {
+  .features__grid {
+    padding-left: calc((100vw - 768)/2);
+  padding-right:  calc((100vw - 768)/2);
+  }
+}
 
 
 

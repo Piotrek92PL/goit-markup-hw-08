@@ -4,7 +4,7 @@
   margin: auto;
   box-sizing: border-box;
   position: relative;
-  margin: calc(50vh - 304px ) calc(50vw - 225px);
+  margin: calc(50vh - 304px) calc(50vw - 225px);
   /* width: 528px; */
   height: 609px;
   z-index: 5;
@@ -45,24 +45,24 @@
   margin-bottom: 10px;
   padding-left: 42px;
 }
+/* 
 .modal__icon {
-  position: absolute;
+  position: fixed;
   z-index: 6;
 }
 
 .modal__icon--name {
-  top: 126px;
-  right: calc(50vw + 140px);
-}
+  right: 100px;
+   top: 126px; 
+} 
 .modal__icon--phone {
-  top: 196px;
-  right: calc(50vw + 140px);
+   top: 196px;
+  right: calc(50vw + 140px); 
 }
 .modal__icon--mail {
-  top: 264px;
-  right: calc(50vw + 140px);
-}
-
+  /* top: 264px;
+  right: calc(50vw + 140px); 
+} */
 .modal__input__comment {
   box-sizing: border-box;
   width: 370px;
@@ -77,13 +77,13 @@
   letter-spacing: 0.01em;
   max-height: 120px;
   min-height: 120px;
-} 
+}
 /* checkbox */
 .checkbox {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
- /* padding-left: 14px;
+  /* padding-left: 14px;
   padding-right: 14px; */
 }
 .checkbox--visually-hidden {
@@ -98,9 +98,9 @@
 }
 .checkbox__label p {
   font-weight: 400;
-font-size: 12px;
-line-height: 14px;
-white-space: nowrap;
+  font-size: 12px;
+  line-height: 14px;
+  white-space: nowrap;
 }
 .checkbox__label::before {
   display: inline-block;
@@ -175,24 +175,25 @@ white-space: nowrap;
   transition-property: opacity;
   transition: var(--transition-duration) var(--cubic-bezier);
 }
+/*
 .modal-icon-person {
-  position: absolute;
+  position: relative;
   z-index: 6;
   top: 104px;
   right: 458px;
 }
 .modal-icon-phone {
-  position: absolute;
+  position: relative;
   z-index: 6;
   top: 172px;
   right: 458px;
 }
 .modal-icon-mail {
-  position: absolute;
+  position: relative;
   z-index: 6;
   top: 240px;
-  right: 458px;
-}
+  right: calc(50vw + 140px);
+} */
 .modal-inputs:active,
 .modal-inputs:focus {
   outline-color: var(--blue);
@@ -208,8 +209,10 @@ label:focus-within {
 .hyperlink {
   color: var(--blue);
 }
+/*
 .cb {
 }
+*/
 .checkbox__label::before {
   display: inline-block;
   content: '';
