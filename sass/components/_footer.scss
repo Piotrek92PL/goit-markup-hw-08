@@ -166,9 +166,15 @@
 
 @media (min-width: 1200px) {
   .footer {
+    max-width: 1170px;
+    margin: 0;
     height: 252px;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    & .footer__subscribe__container {
+      display: inline;
+    }
   }
   .footer__contact {
   max-width: 246px;
@@ -208,7 +214,7 @@
 } 
 .footer__subscribe__container {
   margin: 0px;
-  width: 550px;
+  width: 300px;
   height: 86px;
   display: flex;
   flex-direction: row; 
@@ -233,6 +239,7 @@
 .footer__subscribe-input {
   width: 358px;
   height: 50px;
+  margin-bottom: 0;
   background-color: var(--bg-footer);
   border: 1px solid var(--footer-border);
   filter: drop-shadow(0px 4px 4px var(--shadows-4));
@@ -243,7 +250,7 @@
 }
 .footer__subscribe-button {
   position: relative; 
-  bottom: 182px;
+  bottom: 52px;
   left: 380px;
 
 }
