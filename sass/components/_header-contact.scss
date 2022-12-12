@@ -53,13 +53,16 @@
     margin-right: 0px;
   }
   .contact__wrapper {
+    flex-direction: row;
     text-align: right;
-    max-width: 323px;
+    max-height: 18px;
+    max-width: 500px;
     height: 16px;
     flex-wrap: nowrap;
     justify-content: space-between;
-    & li{
-      display:inline;
+    & li {
+      display: inline;
+      padding-left: 30px;
     }
  }
 }

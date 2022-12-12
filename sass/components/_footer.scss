@@ -136,13 +136,16 @@
 }
 @media (min-width: 768px) {
   .footer {
+    max-width: 738px;
+    margin:auto;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
   }
   .footer__contact {
-    width: 253px;
-    margin: 60px 144px 60px 60px;
+    box-sizing: border-box;
+  max-width: 369px;
+    margin: 60px 144px 0px 60px;
     white-space: nowrap;
     text-align: left;
     
@@ -168,7 +171,7 @@
     justify-content: flex-start;
   }
   .footer__contact {
-  width: 246px;
+  max-width: 246px;
   margin: 60px 70px 0px 0px;
   & ul {
   padding-top: 20px;

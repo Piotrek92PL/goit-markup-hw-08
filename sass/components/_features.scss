@@ -8,7 +8,7 @@
   list-style-type: none;
 }
 .features__grid__item {
-  width: 100%;
+  max-width: 450px;
   background-color: var(--white);
   justify-content: center;
 }
@@ -55,12 +55,20 @@
 }
 
 @media (min-width: 768px) {
+  .features__grid {
+    max-width: 738px;
+    margin: auto;
+  }
   .features__grid__item {
-    width: calc(50vw - 30px);
+    max-width: 354px;
   }
 } 
 
 @media (min-width: 1200px) {
+  .features__grid {
+    max-width: 1170px;
+    margin: auto;
+  }
   .features__grid__item {
   width: 270px;
   text-align: left;
