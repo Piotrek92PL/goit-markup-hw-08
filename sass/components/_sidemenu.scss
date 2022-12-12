@@ -17,7 +17,7 @@
 .menu-container {
   position: absolute;
   display: none;
-  & .is-open {
+  &.is-open {
     display: block !important ;
     margin: 0;
     padding: 0;
