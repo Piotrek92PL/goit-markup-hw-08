@@ -3,7 +3,7 @@
   background-color: var(--white);
   margin: auto;
   box-sizing: border-box;
-  position: relative;
+  position: fixed;
   margin: calc(50vh - 304px) calc(50vw - 225px);
   /* width: 528px; */
   height: 609px;
@@ -45,24 +45,25 @@
   margin-bottom: 10px;
   padding-left: 42px;
 }
-/* 
+
 .modal__icon {
   position: fixed;
   z-index: 6;
 }
 
 .modal__icon--name {
-  right: 100px;
-   top: 126px; 
+  right: calc(50vw + 150px);
+   top: 345px; 
 } 
 .modal__icon--phone {
-   top: 196px;
-  right: calc(50vw + 140px); 
+   top: 415px;
+  right: calc(50vw + 150px); 
 }
 .modal__icon--mail {
-  /* top: 264px;
-  right: calc(50vw + 140px); 
-} */
+  top: 480px;
+  right: calc(50vw + 150px); 
+} 
+
 .modal__input__comment {
   box-sizing: border-box;
   width: 370px;

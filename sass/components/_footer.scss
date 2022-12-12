@@ -1,6 +1,5 @@
 .footer--background {
   background-color: var(--bg-footer);
-  /* height: 252px; */
 }
 .footer {
   display: flex;
@@ -135,7 +134,118 @@
   top: 5px;
    left: 24px;
 }
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .footer__contact {
+    width: 253px;
+    margin: 60px 144px 60px 60px;
+    white-space: nowrap;
+    text-align: left;
+    
+    padding-top: 0px;
+  }
+  .footer__social__container {
+    margin-top: 65px;
+    margin-right: 89px;
+    margin-left: 0px;
+  }
+  .footer__subscribe__container {
+    display:block;
+    margin: auto;
+  }
+}
 
+
+
+@media (min-width: 1200px) {
+  .footer {
+    height: 252px;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .footer__contact {
+  width: 246px;
+  margin: 60px 70px 0px 0px;
+  & ul {
+  padding-top: 20px;
+  margin-bottom: 60px;
+  list-style-type: none;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--white);
+}
+    & a {
+  text-decoration: none;
+  color: var(--white);
+  opacity: 60%;
+}
+    & li {
+  padding-bottom: 9px;
+}
+}
+.footer__social__container {
+  width: 206px;
+  margin-right: 20px;
+  margin-top: 0px;
+  margin-right: 0px;
+  & p {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+  margin-top: 72px;
+  padding-bottom: 20px;
+}
+} 
+.footer__subscribe__container {
+  margin: 0px;
+  width: 550px;
+  height: 86px;
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+
+    & form {
+        margin-top: 72px;
+        margin-left: 79px;
+    }
+    & p {
+      text-align:left;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: var(--white);
+}
+}
+.footer__subscribe-input {
+  width: 358px;
+  height: 50px;
+  background-color: var(--bg-footer);
+  border: 1px solid var(--footer-border);
+  filter: drop-shadow(0px 4px 4px var(--shadows-4));
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  color: var(--white);
+}
+.footer__subscribe-button {
+  position: relative; 
+  bottom: 182px;
+  left: 380px;
+
+}
+
+}
 /*
 .footer__contact {
   width: 246px;

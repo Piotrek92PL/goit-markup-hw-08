@@ -17,6 +17,7 @@
   }
 }
 .team__box {
+  width: calc(100vw - 30px);
   margin: 0;
   background-color: var(--white);
   border-radius: 0px 0px 4px 4px;
@@ -36,6 +37,11 @@
   letter-spacing: 0.03em;
   color: var(--black-title);
   padding-bottom: 10px;
+}
+.team__img {
+  display: block;
+  margin-bottom: 30px;
+  width: 100%;
 }
 
 .team__icons__container {
@@ -74,7 +80,16 @@
   fill: var(--white);
   cursor: pointer;
 }
-
+@media (min-width: 768px) {
+  .team__box {
+    width: calc(50vw - 30px)
+  }
+}
+@media (min-width: 1200px) {
+  .team__box {
+    width: 270px;
+  }
+}
 
 
 

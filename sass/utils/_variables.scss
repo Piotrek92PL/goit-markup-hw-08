@@ -76,12 +76,13 @@ padding-bottom: 50px;
 
 }
 .section {
-  padding-top: 60px;
-
-  /* padding-top: 94px;
-  padding-bottom: 94px;
-  <- dla wiekszej res */
-  
+  padding-top: 60px; 
+}
+@media (min-width: 1200px) {
+  .section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
 ::after {
   width: 100%;

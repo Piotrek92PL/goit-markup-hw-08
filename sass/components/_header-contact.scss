@@ -42,10 +42,24 @@
 .header__contact--colorchange:hover a {
   color: var(--blue);
 }
+
 @media (min-width: 768px) {
   .contact__wrapper {
     flex-direction: row;
-
-
   }
+}
+@media (min-width: 1200px) {
+  .header__contact {
+    margin-right: 0px;
+  }
+  .contact__wrapper {
+    text-align: right;
+    max-width: 323px;
+    height: 16px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    & li{
+      display:inline;
+    }
+ }
 }

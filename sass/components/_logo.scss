@@ -27,7 +27,14 @@
     display: none;
   }
 }
- 
+@media (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+  }
+  .logo--black {
+    margin-right: 93px;
+  }
+}
 /* 
 .logo {
  

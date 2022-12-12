@@ -11,6 +11,12 @@
   max-width: 1600px;
   margin: 0 auto;
 }
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .banner--background {
+    background-image: linear-gradient(to top, var(--shadows-5), var(--shadows-5)),
+      url(../images/background@x2.png);
+  }
+}
 .banner {
   display: flex;
   flex-direction: column;
@@ -39,7 +45,14 @@
   cursor: pointer;
   border-radius: 4px;
 }
-
+@media (min-width: 1200px) {
+  .banner__text {
+    font-size: 44px;
+  }
+  .banner--background {
+    height: 600px;
+  }
+}
 /*
 .banner--background {
   background-color: #2f303a;
