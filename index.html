@@ -84,7 +84,8 @@
         <div class="container header">
           <a class="logo--style" href="index.html" title="Strona główna">
             <span class="logo logo--blue">Web</span><span class="logo logo--black">Studio</span></a
-          ><button
+          >
+          <button
             class="menu-toggle js-open-menu"
             aria-expanded="false"
             aria-controls="mobile-menu"
@@ -104,39 +105,38 @@
             </svg>
           </button>
           <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-          <svg
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
+            <button class="menu-toggle js-close-menu">
+              <svg
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+            </button>
 
-        <ul class="mobile-menu">
-          <li><a href="#" class="link">Agencja</a></li>
-          <li><a href="portfolio.html" class="link">Portfolio</a></li>
-          <li><a href="#" class="link">Kontakt</a></li>
-        </ul>
-        <a class="sidemenu--tel" href="tel:+48111111111">+48 111 111 111</a>
-        <a class="sidemenu--mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <div class="sidemenu__social-container">
-            <ul>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Facebook</a></li>
-              <li><a href="#">LinkedIn</a></li>
+            <ul class="mobile-menu">
+              <li><a href="#" class="link">Agencja</a></li>
+              <li><a href="portfolio.html" class="link">Portfolio</a></li>
+              <li><a href="#" class="link">Kontakt</a></li>
             </ul>
+            <a class="sidemenu--tel" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="sidemenu--mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <div class="sidemenu__social-container">
+              <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
           </div>
-
-      </div>
           <div class="header__wrapper">
             <nav>
               <ul class="header__navbar">
@@ -172,7 +172,6 @@
               </ul>
             </div>
           </div>
-          
         </div>
       </div>
     </header>
@@ -236,22 +235,32 @@
               </p>
             </li>
           </ul>
-           <div class="conatiner features__gallery"> 
-          <h2 class="headline">Czym się zajmujemy</h2>
-          <ul class="gallery__grid">
-            <li>
-              <img src="images/graphic1.jpg" alt="APLIKACJE KOMPUTEROWE" width="370" height="294" />
-              <div class="gallery__image__description">APLIKACJE KOMPUTEROWE</div>
-            </li>
-            <li>
-              <img src="images/graphic2.jpg" alt="APLIKACJE MOBILNE" width="370" height="294" />
-              <div class="gallery__image__description">APLIKACJE MOBILNE</div>
-            </li>
-            <li>
-              <img src="images/graphic3.jpg" alt="ROZWIĄZANIA GRAFICZNE" width="370" height="294" />
-              <div class="gallery__image__description">ROZWIĄZANIA GRAFICZNE</div>
-            </li>
-          </ul>
+          <div class="conatiner features__gallery">
+            <h2 class="headline">Czym się zajmujemy</h2>
+            <ul class="gallery__grid">
+              <li>
+                <img
+                  src="images/graphic1.jpg"
+                  alt="APLIKACJE KOMPUTEROWE"
+                  width="370"
+                  height="294"
+                />
+                <div class="gallery__image__description">APLIKACJE KOMPUTEROWE</div>
+              </li>
+              <li>
+                <img src="images/graphic2.jpg" alt="APLIKACJE MOBILNE" width="370" height="294" />
+                <div class="gallery__image__description">APLIKACJE MOBILNE</div>
+              </li>
+              <li>
+                <img
+                  src="images/graphic3.jpg"
+                  alt="ROZWIĄZANIA GRAFICZNE"
+                  width="370"
+                  height="294"
+                />
+                <div class="gallery__image__description">ROZWIĄZANIA GRAFICZNE</div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -267,13 +276,12 @@
                     alt="John Doe - Product Designer"
                     class="team__img"
                     srcset="
-                    ./images/1team450.jpg     450w,
-                    ./images/1team450@2x.jpg     900w,
-                    ./images/1team354.jpg     354w,
-                    ./images/1team354@x2.jpg     708w,
-                    ./images/1team270.jpg     270w,
-                    ./images/1team270@x2.jpg     540w,
-
+                      ./images/1team450.jpg    450w,
+                      ./images/1team450@2x.jpg 900w,
+                      ./images/1team354.jpg    354w,
+                      ./images/1team354@x2.jpg 708w,
+                      ./images/1team270.jpg    270w,
+                      ./images/1team270@x2.jpg 540w
                     "
                     sizes="(min-width: 1200px) 270, (min-width: 768px) 354px, (min-width: 480px) 450px"
                   />
@@ -312,13 +320,12 @@
                     alt="John Doe - Frontend Developer"
                     class="team__img"
                     srcset="
-                    ./images/2team450.jpg     450w,
-                    ./images/2team450@2x.jpg     900w,
-                    ./images/2team354.jpg     354w,
-                    ./images/2team354@x2.jpg     708w,
-                    ./images/2team270.jpg     270w,
-                    ./images/2team270@x2.jpg     540w,
-
+                      ./images/2team450.jpg    450w,
+                      ./images/2team450@2x.jpg 900w,
+                      ./images/2team354.jpg    354w,
+                      ./images/2team354@x2.jpg 708w,
+                      ./images/2team270.jpg    270w,
+                      ./images/2team270@x2.jpg 540w
                     "
                     sizes="(min-width: 1200px) 270, (min-width: 768px) 354px, (min-width: 480px) 450px"
                   />
@@ -352,17 +359,20 @@
               </li>
               <li>
                 <figure class="team__box">
-                  <img src="images/3team270.jpg" alt="John Doe - Marketing" class="team__img"
+                  <img
+                    src="images/3team270.jpg"
+                    alt="John Doe - Marketing"
+                    class="team__img"
                     srcset="
-                    ./images/3team450.jpg     450w,
-                    ./images/3team450@x2.jpg     900w,
-                    ./images/3team354.jpg     354w,
-                    ./images/3team354@x2.jpg     708w,
-                    ./images/3team270.jpg     270w,
-                    ./images/3team270@x2.jpg     540w,
-
+                      ./images/3team450.jpg    450w,
+                      ./images/3team450@x2.jpg 900w,
+                      ./images/3team354.jpg    354w,
+                      ./images/3team354@x2.jpg 708w,
+                      ./images/3team270.jpg    270w,
+                      ./images/3team270@x2.jpg 540w
                     "
-                    sizes="(min-width: 1200px) 270, (min-width: 768px) 354px, (min-width: 480px) 450px" />
+                    sizes="(min-width: 1200px) 270, (min-width: 768px) 354px, (min-width: 480px) 450px"
+                  />
 
                   <figcaption>
                     <h4 class="team__box--name">John Doe</h4>
@@ -399,13 +409,12 @@
                     alt="John Doe - UI Designer"
                     class="team__img"
                     srcset="
-                    ./images/4team450.jpg     450w,
-                    ./images/4team450@x2.jpg     900w,
-                    ./images/4team354.jpg     354w,
-                    ./images/4team354@x2.jpg     708w,
-                    ./images/4team270.jpg     270w,
-                    ./images/4team270@x2.jpg     540w,
-
+                      ./images/4team450.jpg    450w,
+                      ./images/4team450@x2.jpg 900w,
+                      ./images/4team354.jpg    354w,
+                      ./images/4team354@x2.jpg 708w,
+                      ./images/4team270.jpg    270w,
+                      ./images/4team270@x2.jpg 540w
                     "
                     sizes="(min-width: 1200px) 270, (min-width: 768px) 354px, (min-width: 480px) 450px"
                   />
@@ -478,7 +487,6 @@
           </div>
         </div>
       </section>
-      
     </main>
     <footer>
       <div class="container footer--background">
@@ -535,24 +543,44 @@
                   placeholder="E-mail"
                 />
               </label>
-              <button class="footer__subscribe-button" type="submit">Zapisz się<span>
-                <svg class="footer__subscribe-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-              </span></button>
+              <button class="footer__subscribe-button" type="submit">
+                Zapisz się<span>
+                  <svg class="footer__subscribe-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-icon-send"></use>
+                  </svg>
+                </span>
+              </button>
             </form>
-            
           </div>
         </div>
       </div>
     </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const toggleButton = document.querySelectorAll('.menu-toggle'); // Przyciski otwierania i zamykania
+        const mobileMenu = document.getElementById('mobile-menu'); // Kontener menu
+
+        toggleButton.forEach(function (button) {
+          button.addEventListener('click', function () {
+            const isOpen = mobileMenu.classList.contains('is-open');
+            if (isOpen) {
+              mobileMenu.classList.remove('is-open');
+              button.setAttribute('aria-expanded', 'false');
+            } else {
+              mobileMenu.classList.add('is-open');
+              button.setAttribute('aria-expanded', 'true');
+            }
+          });
+        });
+      });
+    </script>
+
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
       integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
       crossorigin="anonymous"
     ></script>
-    <script defer src="js/mobile-menu.js"></script> 
     <script src="./js/modal.js"></script>
   </body>
 </html>
